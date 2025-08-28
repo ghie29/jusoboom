@@ -103,7 +103,7 @@
             <!-- Mobile: Date & Time -->
             <div class="md:hidden flex flex-col items-end text-white font-do-hyeon text-right mr-2">
                 <div id="mobile-date" class="text-sm text-gray-300"></div>
-                <div id="mobile-clock" class="text-xl font-bold mt-1"></div>
+                <div id="mobile-clock" class="text-md font-bold mt-1"></div>
             </div>
 
             <!-- Desktop Logo -->
@@ -169,126 +169,101 @@
         </script>
     </header>
 
-    <main class="max-w-7xl mx-auto px-6 py-6">
+    <main class="max-w-7xl mx-auto px-2 py-6">
         <!-- Section title for SEO -->
         <header class="mb-8 text-center">
-            <h1 class="text-3xl font-extrabold text-white">주소붐 - 최신 인기 사이트 모음</h1>
-            <p class="mt-2 text-gray-300 text-lg">
+            <h1 class="text-xl font-extrabold text-white">주소붐 - 최신 인기 사이트 모음</h1>
+            <p class="mt-2 text-gray-300 text-sm">
                 웹툰, 무료드라마, 스포츠중계, 토렌트, 커뮤니티, 성인사이트 등 신뢰할 수 있는 사이트를 한눈에 확인하세요.
             </p>
         </header>
 
-        <section class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" aria-label="사이트 카테고리">
+        <section class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-1" aria-label="사이트 카테고리">
 
             <!-- 웹툰 -->
-            <a href="/webtoon" class="group relative bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all p-8 text-center overflow-hidden">
+            <a href="/webtoon" class="group relative bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transform transition-all p-[0.5rem] text-center overflow-hidden hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600">
                 <div class="mb-4">
-                    <img src="/assets/icon_webtoon2_white.png" class="w-20 h-20 mx-auto object-contain" alt="웹툰 아이콘" />
+                    <img src="/assets/icon_webtoon2_white.png" class="w-12 h-12 mx-auto object-contain" alt="웹툰 아이콘" />
                 </div>
-                <h2 class="text-2xl font-bold mb-2 transition-transform group-hover:scale-105">웹툰</h2>
-                <p class="text-gray-300 text-sm">최신 인기 웹툰 모음</p>
-                <span class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    다양한 장르의 인기 웹툰 제공
-                </span>
+                <h2 class="text-md font-bold mb-2 transition-transform group-hover:scale-105">웹툰</h2>
+                <p class="text-gray-300 text-xs">최신 인기 웹툰 모음</p>
             </a>
 
             <!-- 무료드라마 -->
-            <a href="/drama" class="group relative bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all p-8 text-center overflow-hidden">
+            <a href="/drama" class="group relative bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transform transition-all p-[0.5rem] text-center overflow-hidden hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600">
                 <div class="mb-4">
-                    <img src="/assets/icon_movie2.png" class="w-20 h-20 mx-auto object-contain" alt="드라마 아이콘" />
+                    <img src="/assets/icon_movie2.png" class="w-12 h-12 mx-auto object-contain" alt="드라마 아이콘" />
                 </div>
-                <h2 class="text-2xl font-bold mb-2 transition-transform group-hover:scale-105">무료드라마</h2>
-                <p class="text-gray-300 text-sm">무료로 즐기는 인기 드라마</p>
-                <span class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    고화질 드라마 스트리밍
-                </span>
+                <h2 class="text-md font-bold mb-2 transition-transform group-hover:scale-105">무료드라마</h2>
+                <p class="text-gray-300 text-xs">무료로 즐기는 인기 드라마</p>
             </a>
 
             <!-- 성인사이트 -->
-            <a href="/adult" class="group relative bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all p-8 text-center overflow-hidden">
+            <a href="/adult" class="group relative bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transform transition-all p-[0.5rem] text-center overflow-hidden hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600">
                 <div class="mb-4">
-                    <img src="/assets/icon_adultfirst2.png" class="w-20 h-20 mx-auto object-contain" alt="성인사이트 아이콘" />
+                    <img src="/assets/icon_adultfirst2.png" class="w-12 h-12 mx-auto object-contain" alt="성인사이트 아이콘" />
                 </div>
-                <h2 class="text-2xl font-bold mb-2 transition-transform group-hover:scale-105">성인사이트</h2>
-                <p class="text-gray-300 text-sm">신뢰할 수 있는 성인 콘텐츠</p>
-                <span class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    안전한 성인 콘텐츠만 제공
-                </span>
+                <h2 class="text-md font-bold mb-2 transition-transform group-hover:scale-105">성인사이트</h2>
+                <p class="text-gray-300 text-xs">신뢰할 수 있는 성인 콘텐츠</p>
             </a>
 
             <!-- 스포츠중계 -->
-            <a href="/sports" class="group relative bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all p-8 text-center overflow-hidden">
+            <a href="/sports" class="group relative bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transform transition-all p-[0.5rem] text-center overflow-hidden hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600">
                 <div class="mb-4">
-                    <img src="/assets/icon_sports2.png" class="w-20 h-20 mx-auto object-contain" alt="스포츠중계 아이콘" />
+                    <img src="/assets/icon_sports2.png" class="w-12 h-12 mx-auto object-contain" alt="스포츠중계 아이콘" />
                 </div>
-                <h2 class="text-2xl font-bold mb-2 transition-transform group-hover:scale-105">스포츠중계</h2>
-                <p class="text-gray-300 text-sm">실시간 경기 중계 제공</p>
-                <span class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    라이브 경기 스트리밍
-                </span>
+                <h2 class="text-md font-bold mb-2 transition-transform group-hover:scale-105">스포츠중계</h2>
+                <p class="text-gray-300 text-xs">실시간 경기 중계 제공</p>
             </a>
 
             <!-- 먹튀검증 -->
-            <a href="/egame" class="group relative bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all p-8 text-center overflow-hidden">
+            <a href="/egame" class="group relative bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transform transition-all p-[0.5rem] text-center overflow-hidden hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600">
                 <div class="mb-4">
-                    <img src="/assets/icon_steal2.png" class="w-20 h-20 mx-auto object-contain" alt="먹튀검증 아이콘" />
+                    <img src="/assets/icon_steal2.png" class="w-12 h-12 mx-auto object-contain" alt="먹튀검증 아이콘" />
                 </div>
-                <h2 class="text-2xl font-bold mb-2 transition-transform group-hover:scale-105">먹튀검증</h2>
-                <p class="text-gray-300 text-sm">안전한 사이트 검증</p>
-                <span class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    위험 없는 사이트 안내
-                </span>
+                <h2 class="text-md font-bold mb-2 transition-transform group-hover:scale-105">먹튀검증</h2>
+                <p class="text-gray-300 text-xs">안전한 사이트 검증</p>
             </a>
 
             <!-- 토렌트 -->
-            <a href="/torrent" class="group relative bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all p-8 text-center overflow-hidden">
+            <a href="/torrent" class="group relative bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transform transition-all p-[0.5rem] text-center overflow-hidden hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600">
                 <div class="mb-4">
-                    <img src="/assets/icon_torrent2.png" class="w-20 h-20 mx-auto object-contain" alt="토렌트 아이콘" />
+                    <img src="/assets/icon_torrent2.png" class="w-12 h-12 mx-auto object-contain" alt="토렌트 아이콘" />
                 </div>
-                <h2 class="text-2xl font-bold mb-2 transition-transform group-hover:scale-105">토렌트</h2>
-                <p class="text-gray-300 text-sm">최신 영화, 드라마 자료</p>
-                <span class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    안전한 토렌트 제공
-                </span>
+                <h2 class="text-md font-bold mb-2 transition-transform group-hover:scale-105">토렌트</h2>
+                <p class="text-gray-300 text-xs">최신 영화, 드라마 자료</p>
             </a>
 
             <!-- 커뮤니티 -->
-            <a href="/community" class="group relative bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all p-8 text-center overflow-hidden">
+            <a href="/community" class="group relative bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transform transition-all p-[0.5rem] text-center overflow-hidden hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600">
                 <div class="mb-4">
-                    <img src="/assets/icon_community2.png" class="w-20 h-20 mx-auto object-contain" alt="커뮤니티 아이콘" />
+                    <img src="/assets/icon_community2.png" class="w-12 h-12 mx-auto object-contain" alt="커뮤니티 아이콘" />
                 </div>
-                <h2 class="text-2xl font-bold mb-2 transition-transform group-hover:scale-105">커뮤니티</h2>
-                <p class="text-gray-300 text-sm">다양한 온라인 커뮤니티</p>
-                <span class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    관심사별 커뮤니티 모음
-                </span>
+                <h2 class="text-md font-bold mb-2 transition-transform group-hover:scale-105">커뮤니티</h2>
+                <p class="text-gray-300 text-xs">다양한 온라인 커뮤니티</p>
             </a>
 
             <!-- 성인용품 -->
-            <a href="/adultg" class="group relative bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all p-8 text-center overflow-hidden">
+            <a href="/adultg" class="group relative bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transform transition-all p-[0.5rem] text-center overflow-hidden hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600">
                 <div class="mb-4">
-                    <img src="/assets/icon_adultfirst2.png" class="w-20 h-20 mx-auto object-contain" alt="성인용품 아이콘" />
+                    <img src="/assets/icon_adultfirst2.png" class="w-12 h-12 mx-auto object-contain" alt="성인용품 아이콘" />
                 </div>
-                <h2 class="text-2xl font-bold mb-2 transition-transform group-hover:scale-105">성인용품</h2>
-                <p class="text-gray-300 text-sm">추천 성인용품 쇼핑몰</p>
-                <span class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    다양한 상품과 안전한 결제
-                </span>
+                <h2 class="text-md font-bold mb-2 transition-transform group-hover:scale-105">성인용품</h2>
+                <p class="text-gray-300 text-xs">추천 성인용품 쇼핑몰</p>
             </a>
 
             <!-- 한인교민 -->
-            <a href="/news" class="group relative bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all p-8 text-center overflow-hidden">
+            <a href="/news" class="group relative bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transform transition-all p-[0.5rem] text-center overflow-hidden hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600">
                 <div class="mb-4">
-                    <img src="/assets/icon_kr_community.png" class="w-20 h-20 mx-auto object-contain" alt="한인교민 아이콘" />
+                    <img src="/assets/icon_kr_community.png" class="w-12 h-12 mx-auto object-contain" alt="한인교민 아이콘" />
                 </div>
-                <h2 class="text-2xl font-bold mb-2 transition-transform group-hover:scale-105">한인교민</h2>
-                <p class="text-gray-300 text-sm">교민을 위한 최신 뉴스</p>
-                <span class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-                    교민 생활·커뮤니티 정보
-                </span>
+                <h2 class="text-md font-bold mb-2 transition-transform group-hover:scale-105">한인교민</h2>
+                <p class="text-gray-300 text-xs">교민을 위한 최신 뉴스</p>
             </a>
 
         </section>
+
+
     </main>
 
     <footer class="bg-gray-900 text-white py-12 px-6">
