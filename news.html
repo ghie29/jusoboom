@@ -1,34 +1,185 @@
 ﻿<!doctype html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>한인교민 - 주소붐</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="주소붐 - News for Korean residents">
-    <link rel="icon" href="/favicon.ico">
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <header class="bg-gradient-to-r from-yellow-600 to-orange-500 text-white py-10 text-center shadow-lg">
-        <h1 class="text-4xl font-black mb-2">한인교민</h1>
-        <p class="text-lg">News for Korean residents</p>
+    <!-- SEO -->
+    <title>주소붐 한인교민 뉴스 - 해외 한인 커뮤니티 소식</title>
+    <meta name="description" content="주소붐 한인교민 페이지에서 해외 한인 소식, 생활 정보, 커뮤니티 소식을 확인하세요. 한국 교민을 위한 최신 뉴스와 유용한 정보를 제공합니다.">
+    <meta name="keywords" content="주소붐, 한인교민, 해외한인, 교민뉴스, 교민사회, 한인커뮤니티" />
+    <meta name="author" content="주소붐" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="ko" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="주소붐 한인교민 뉴스 - 해외 한인 커뮤니티 소식" />
+    <meta property="og:description" content="주소붐 한인교민 페이지에서 최신 교민 소식과 해외 생활 정보를 확인하세요." />
+    <meta property="og:image" content="https://jusoboom.pages.dev/assets/og-news.png" />
+    <meta property="og:url" content="https://jusoboom.pages.dev/news" />
+    <meta property="og:site_name" content="주소붐" />
+    <meta property="og:locale" content="ko_KR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="주소붐 한인교민 뉴스 - 교민사회 소식" />
+    <meta name="twitter:description" content="주소붐 한인교민 페이지에서 최신 한인사회 뉴스를 만나보세요." />
+    <meta name="twitter:image" content="https://jusoboom.pages.dev/assets/og-news.png" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://jusoboom.pages.dev/news" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "NewsMediaOrganization",
+          "name": "주소붐 한인교민",
+          "url": "https://jusoboom.pages.dev/news",
+          "description": "주소붐 한인교민 페이지는 해외 한인 소식과 생활 정보를 제공합니다.",
+          "publisher": {
+            "@type": "Organization",
+            "name": "주소붐",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://jusoboom.pages.dev/assets/og-preview.png"
+            }
+          }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-950 text-gray-200">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-gray-800 via-gray-900 to-black shadow-lg sticky top-0 z-50">
+        <div class="max-w-[100%] mx-auto py-3 flex items-center justify-between md:flex-col md:items-center">
+            <div class="flex items-center md:hidden gap-2">
+                <button id="menu-btn" class="focus:outline-none">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                <a href="/index.html" class="text-2xl font-black text-white hover:text-yellow-300">주소붐</a>
+            </div>
+
+            <!-- Mobile date/time -->
+            <div class="md:hidden flex flex-col items-end text-white font-do-hyeon text-right mr-2">
+                <div id="mobile-date" class="text-sm text-gray-300"></div>
+                <div id="mobile-clock" class="text-xl font-bold mt-1"></div>
+            </div>
+
+            <!-- Desktop Logo -->
+            <a href="/index.html" class="text-3xl md:text-5xl font-black hover:text-yellow-300 transition-colors hidden md:block">
+                주소붐
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex mt-3 justify-center w-full bg-black/60 backdrop-blur-md py-3 shadow-lg px-6 gap-12">
+                <a href="/" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">HOME</a>
+                <a href="/webtoon.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">웹툰</a>
+                <a href="/drama.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">무료드라마</a>
+                <a href="/adult.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">성인사이트</a>
+                <a href="/sports.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">스포츠중계</a>
+                <a href="/egame.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">먹튀검증</a>
+                <a href="/torrent.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">토렌트</a>
+                <a href="/community.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">커뮤니티</a>
+                <a href="/adultg.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">성인용품</a>
+                <a href="/news.html" class="px-3 py-2 text-yellow-400 font-semibold rounded-lg bg-white/10">한인교민</a>
+            </nav>
+
+            <!-- Mobile Nav -->
+            <nav id="mobile-menu" class="fixed top-0 left-0 h-full w-64 bg-gradient-to-b from-gray-800 to-black transform -translate-x-full flex flex-col gap-4 p-8 transition-transform duration-300 z-40 md:hidden">
+                <a href="/" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">HOME</a>
+                <a href="/webtoon.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">웹툰</a>
+                <a href="/drama.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">무료드라마</a>
+                <a href="/adult.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">성인사이트</a>
+                <a href="/sports.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">스포츠중계</a>
+                <a href="/egame.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">먹튀검증</a>
+                <a href="/torrent.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">토렌트</a>
+                <a href="/community.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">커뮤니티</a>
+                <a href="/adultg.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">성인용품</a>
+                <a href="/news.html" class="text-yellow-400 bg-white/10 rounded-xl px-4 py-3">한인교민</a>
+            </nav>
+        </div>
     </header>
 
-    <main class="max-w-7xl mx-auto p-6">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            <a href="/news/1" class="bg-gradient-to-br from-yellow-100 to-orange-200 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transform transition-all p-6 text-center">
-                <img src="/assets/news1.jpg" class="w-full h-48 object-cover rounded-lg mb-4" alt="News 1">
-                <h2 class="text-xl font-bold mb-2">News 1</h2>
-                <p class="text-gray-600 text-sm">Short description of news.</p>
+    <!-- Main -->
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <h1 class="text-3xl md:text-4xl font-extrabold text-white mb-6">
+            <div class="flex items-center space-x-3">
+                <img src="/assets/icon_kr_community.png" class="w-12 h-12" alt="한인교민 아이콘" />
+                <span class="text-lg font-bold">한인교민 소식</span>
+            </div>
+        </h1>
+
+        <p class="text-gray-400 mb-10 leading-relaxed">
+            주소붐은 전 세계 한인 교민을 위한 최신 소식과 생활 정보를 제공합니다.
+            해외에서 필요한 교민 사회 뉴스와 유용한 정보를 지금 확인하세요.
+        </p>
+
+        <!-- News List -->
+        <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+            <a href="https://example-news1.com" target="_blank" rel="noopener noreferrer"
+               class="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl group transition-all">
+                <h2 class="text-xl font-bold text-yellow-400 mb-2 group-hover:text-yellow-300">해외 한인 뉴스</h2>
+                <p class="text-gray-300 text-sm">세계 곳곳에서 일어나는 한인 교민들의 소식을 전해드립니다.</p>
             </a>
-            <!-- More news cards -->
+
+            <a href="https://example-news2.com" target="_blank" rel="noopener noreferrer"
+               class="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl group transition-all">
+                <h2 class="text-xl font-bold text-yellow-400 mb-2 group-hover:text-yellow-300">생활 정보</h2>
+                <p class="text-gray-300 text-sm">해외 생활에 필요한 각종 생활 정보와 유용한 팁.</p>
+            </a>
+
+            <a href="https://example-news3.com" target="_blank" rel="noopener noreferrer"
+               class="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl group transition-all">
+                <h2 class="text-xl font-bold text-yellow-400 mb-2 group-hover:text-yellow-300">교민 커뮤니티</h2>
+                <p class="text-gray-300 text-sm">한인 사회 네트워크 및 교민 모임 관련 소식을 공유합니다.</p>
+            </a>
+        </div>
+
+        <!-- Guide -->
+        <div class="mt-12 text-gray-400 text-sm leading-relaxed">
+            <h2 class="text-xl font-semibold text-white mb-3">한인 교민 생활 가이드</h2>
+            <p>
+                해외에서 생활하는 한인 교민들에게 필요한 다양한 정보를 한눈에 제공합니다.
+                뉴스, 커뮤니티, 생활 정보까지 주소붐이 함께합니다.
+            </p>
         </div>
     </main>
 
-    <footer class="bg-gray-900 text-white py-8 text-center">
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center border-t border-gray-800">
         <p class="text-sm">&copy; 2025 주소붐. All rights reserved.</p>
     </footer>
 
+    <!-- Mobile clock script -->
+    <script>
+        const dateEl = document.getElementById('mobile-date');
+        const clockEl = document.getElementById('mobile-clock');
+        function updateTime() {
+            const now = new Date();
+            const y = now.getFullYear();
+            const mo = String(now.getMonth() + 1).padStart(2, '0');
+            const d = String(now.getDate()).padStart(2, '0');
+            const h = String(now.getHours()).padStart(2, '0');
+            const m = String(now.getMinutes()).padStart(2, '0');
+            dateEl.textContent = `${y}/${mo}/${d}`;
+            clockEl.textContent = `${h}:${m}`;
+        }
+        updateTime();
+        setInterval(updateTime, 60000);
+
+        const btn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('-translate-x-full');
+        });
+    </script>
 </body>
 </html>

@@ -1,61 +1,209 @@
 ﻿<!doctype html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>무료드라마 - 주소붐</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="주소붐 - Watch free Korean dramas online">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Oswald&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Header -->
-    <header class="bg-gradient-to-r from-red-600 to-pink-500 text-white py-10 text-center shadow-lg">
-        <h1 class="text-4xl font-black font-black-han-sans mb-2">무료드라마</h1>
-        <p class="text-lg font-do-hyeon">Watch free Korean dramas online</p>
+    <!-- Primary SEO -->
+    <title>주소붐 무료드라마 - 최신 인기 드라마 다시보기</title>
+    <meta name="description" content="주소붐 무료드라마 페이지에서 최신 인기 한국 드라마를 무료로 다시보기 할 수 있는 사이트를 모아 제공합니다. 안전하고 빠른 드라마 감상을 즐겨보세요.">
+    <meta name="keywords" content="주소붐, 무료드라마, 드라마 다시보기, 한국 드라마, 최신 드라마, 인기 드라마 사이트" />
+    <meta name="author" content="주소붐" />
+    <meta name="robots" content="index, follow" />
+    <meta name="rating" content="general" />
+    <meta name="language" content="ko" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="주소붐 무료드라마 - 최신 인기 드라마 다시보기" />
+    <meta property="og:description" content="주소붐은 최신 인기 한국 드라마 다시보기 사이트 링크를 제공합니다. 무료로 빠르게 드라마를 시청하세요." />
+    <meta property="og:image" content="https://jusoboom.pages.dev/assets/og-drama.png" />
+    <meta property="og:url" content="https://jusoboom.pages.dev/drama" />
+    <meta property="og:site_name" content="주소붐" />
+    <meta property="og:locale" content="ko_KR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="주소붐 무료드라마 - 최신 드라마 다시보기" />
+    <meta name="twitter:description" content="주소붐에서 최신 무료 드라마 다시보기 사이트를 확인하세요." />
+    <meta name="twitter:image" content="https://jusoboom.pages.dev/assets/og-drama.png" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://jusoboom.pages.dev/drama" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Structured Data: WebPage -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "주소붐 무료드라마",
+          "url": "https://jusoboom.pages.dev/drama",
+          "description": "주소붐 무료드라마 페이지는 최신 인기 드라마 다시보기 사이트를 모아 제공합니다.",
+          "publisher": {
+            "@type": "Organization",
+            "name": "주소붐",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://jusoboom.pages.dev/assets/og-preview.png"
+            }
+          }
+        }
+    </script>
+
+    <!-- Structured Data: Breadcrumb -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "홈",
+              "item": "https://jusoboom.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "무료드라마",
+              "item": "https://jusoboom.pages.dev/drama"
+            }
+          ]
+        }
+    </script>
+</head>
+
+<body class="bg-gray-950 text-gray-200">
+
+    <!-- HEADER (same as webtoon.html) -->
+    <header class="bg-gradient-to-r from-gray-800 via-gray-900 to-black shadow-lg sticky top-0 z-50">
+        <div class="max-w-[100%] mx-auto py-3 flex items-center justify-between md:flex-col md:items-center">
+
+            <!-- Mobile: Hamburger + Logo -->
+            <div class="flex items-center md:hidden gap-2">
+                <button id="menu-btn" class="focus:outline-none">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                <a href="/index.html" class="text-2xl font-black text-white hover:text-yellow-300">
+                    주소붐
+                </a>
+            </div>
+
+            <!-- Mobile: Date & Time -->
+            <div class="md:hidden flex flex-col items-end text-white font-do-hyeon text-right mr-2">
+                <div id="mobile-date" class="text-sm text-gray-300"></div>
+                <div id="mobile-clock" class="text-xl font-bold mt-1"></div>
+            </div>
+
+            <!-- Desktop Logo -->
+            <a href="/index.html" class="text-3xl md:text-5xl font-black hover:text-yellow-300 transition-colors hidden md:block">
+                주소붐
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="hidden md:flex mt-3 justify-center w-full bg-black/60 backdrop-blur-md py-3 shadow-lg px-6 gap-12">
+                <a href="/" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">HOME</a>
+                <a href="/webtoon.html" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">웹툰</a>
+                <a href="/drama.html" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">무료드라마</a>
+                <a href="/adult.html" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">성인사이트</a>
+                <a href="/sports.html" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">스포츠중계</a>
+                <a href="/egame.html" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">먹튀검증</a>
+                <a href="/torrent.html" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">토렌트</a>
+                <a href="/community.html" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">커뮤니티</a>
+                <a href="/adultg.html" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">성인용품</a>
+                <a href="/news.html" class="px-3 py-2 text-white font-semibold hover:bg-white/20 rounded-lg">한인교민</a>
+            </nav>
+
+            <!-- Mobile slide menu -->
+            <nav id="mobile-menu" class="fixed top-0 left-0 h-full w-64 bg-gradient-to-b from-gray-800 to-black transform -translate-x-full flex flex-col gap-4 p-8 transition-transform duration-300 z-40 md:hidden">
+                <a href="/" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">HOME</a>
+                <a href="/webtoon.html" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">웹툰</a>
+                <a href="/drama.html" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">무료드라마</a>
+                <a href="/adult.html" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">성인사이트</a>
+                <a href="/sports.html" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">스포츠중계</a>
+                <a href="/egame.html" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">먹튀검증</a>
+                <a href="/torrent.html" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">토렌트</a>
+                <a href="/community.html" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">커뮤니티</a>
+                <a href="/adultg.html" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">성인용품</a>
+                <a href="/news.html" class="text-white hover:bg-white/20 px-4 py-3 rounded-lg">한인교민</a>
+            </nav>
+        </div>
+
+        <script>
+            const btn = document.getElementById('menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            btn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('-translate-x-full');
+            });
+
+            const dateEl = document.getElementById('mobile-date');
+            const clockEl = document.getElementById('mobile-clock');
+            function updateTime() {
+                const now = new Date();
+                dateEl.textContent = `${now.getFullYear()}/${String(now.getMonth() + 1).padStart(2, '0')}/${String(now.getDate()).padStart(2, '0')}`;
+                clockEl.textContent = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+            }
+            updateTime();
+            setInterval(updateTime, 60000);
+        </script>
     </header>
 
-    <!-- Drama grid -->
-    <main class="max-w-7xl mx-auto p-6">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+    <!-- MAIN CONTENT -->
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <h1 class="text-3xl md:text-4xl font-extrabold text-white mb-6 flex items-center gap-3">
+            <img src="/assets/icon_movie2.png" class="w-12 h-12" alt="드라마 아이콘">
+            <span class="text-lg font-bold">최신 무료 드라마 다시보기 모음</span>
+        </h1>
 
-            <a href="/drama/1" class="bg-gradient-to-br from-red-100 to-red-200 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transform transition-all p-6 text-center">
-                <img src="/assets/drama1.jpg" alt="Drama 1" class="w-full h-48 object-cover rounded-lg mb-4">
-                <h2 class="text-xl font-bold mb-2">Drama Title 1</h2>
-                <p class="text-gray-600 text-sm">Brief description of the drama.</p>
+        <p class="text-gray-400 mb-10 leading-relaxed">
+            주소붐 무료드라마 페이지에서는 최신 인기 한국 드라마를 무료로 다시보기 할 수 있는 다양한 사이트를 제공합니다.
+            최신 에피소드부터 완결 드라마까지 빠르고 안전하게 감상하세요.
+        </p>
+
+        <!-- Drama Site Cards -->
+        <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <a href="https://example-drama1.com" target="_blank" rel="noopener noreferrer"
+               class="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all group">
+                <h2 class="text-xl font-bold text-yellow-400 mb-2 group-hover:text-yellow-300">드라마코리아</h2>
+                <p class="text-gray-300 text-sm leading-relaxed">최신 한국 드라마를 빠르게 업데이트하는 무료 다시보기 플랫폼.</p>
             </a>
 
-            <a href="/drama/2" class="bg-gradient-to-br from-orange-100 to-orange-200 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transform transition-all p-6 text-center">
-                <img src="/assets/drama2.jpg" alt="Drama 2" class="w-full h-48 object-cover rounded-lg mb-4">
-                <h2 class="text-xl font-bold mb-2">Drama Title 2</h2>
-                <p class="text-gray-600 text-sm">Brief description of the drama.</p>
+            <a href="https://example-drama2.com" target="_blank" rel="noopener noreferrer"
+               class="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all group">
+                <h2 class="text-xl font-bold text-yellow-400 mb-2 group-hover:text-yellow-300">온드라마</h2>
+                <p class="text-gray-300 text-sm leading-relaxed">다양한 장르의 한국 드라마와 예능 다시보기를 무료로 제공.</p>
             </a>
 
-            <a href="/drama/3" class="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transform transition-all p-6 text-center">
-                <img src="/assets/drama3.jpg" alt="Drama 3" class="w-full h-48 object-cover rounded-lg mb-4">
-                <h2 class="text-xl font-bold mb-2">Drama Title 3</h2>
-                <p class="text-gray-600 text-sm">Brief description of the drama.</p>
+            <a href="https://example-drama3.com" target="_blank" rel="noopener noreferrer"
+               class="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all group">
+                <h2 class="text-xl font-bold text-yellow-400 mb-2 group-hover:text-yellow-300">드라마티비</h2>
+                <p class="text-gray-300 text-sm leading-relaxed">최신 방영 드라마부터 고전 인기작까지 모두 무료 시청 가능.</p>
             </a>
 
-            <a href="/drama/4" class="bg-gradient-to-br from-green-100 to-green-200 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transform transition-all p-6 text-center">
-                <img src="/assets/drama4.jpg" alt="Drama 4" class="w-full h-48 object-cover rounded-lg mb-4">
-                <h2 class="text-xl font-bold mb-2">Drama Title 4</h2>
-                <p class="text-gray-600 text-sm">Brief description of the drama.</p>
+            <a href="https://example-drama4.com" target="_blank" rel="noopener noreferrer"
+               class="bg-white/10 backdrop-blur-md rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all group">
+                <h2 class="text-xl font-bold text-yellow-400 mb-2 group-hover:text-yellow-300">K-Drama 다시보기</h2>
+                <p class="text-gray-300 text-sm leading-relaxed">한류 팬들을 위한 글로벌 드라마 다시보기 사이트.</p>
             </a>
+        </div>
 
-            <!-- Add more drama cards as needed -->
-
+        <div class="mt-12 text-gray-400 text-sm leading-relaxed">
+            <h2 class="text-xl font-semibold text-white mb-3">무료드라마 사이트 선택 가이드</h2>
+            <p>
+                주소붐은 이용자들에게 최신 인기 드라마를 안전하게 즐길 수 있는 사이트를 추천합니다.
+                광고와 보안 문제를 최소화하며, 다양한 장르와 최신 업데이트를 제공합니다.
+            </p>
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-8 text-center">
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center border-t border-gray-800">
         <p class="text-sm">&copy; 2025 주소붐. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
