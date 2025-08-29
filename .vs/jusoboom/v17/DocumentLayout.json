@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\webtoon.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webtoon.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\webtoon.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webtoon.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\torrent.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -62,8 +62,7 @@
               "RelativeToolTip": "news.html",
               "ViewState": "AgIAAGoAAAAAAAAAAAAcwHIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T17:00:53.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T17:00:53.53Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "adultg.html",
               "ViewState": "AgIAAGwAAAAAAAAAAAAcwHMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:59:55.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:59:55.342Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "community.html",
               "ViewState": "AgIAAJAAAAAAAAAAAAAcwKIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:57:36.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:57:36.018Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "torrent.html",
               "ViewState": "AgIAAJkAAAAAAAAAAAAcwKIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:55:26.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:55:26.889Z"
             },
             {
               "$type": "Document",
@@ -114,8 +110,7 @@
               "RelativeToolTip": "egame.html",
               "ViewState": "AgIAANoAAAAAAAAAAAAYwOkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:53:03.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:53:03.686Z"
             },
             {
               "$type": "Document",
@@ -127,8 +122,7 @@
               "RelativeToolTip": "sports.html",
               "ViewState": "AgIAAC4AAAAAAAAAAAAcwEUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:50:16.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:50:16.405Z"
             },
             {
               "$type": "Document",
@@ -140,8 +134,7 @@
               "RelativeToolTip": "adult.html",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAJgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:47:39.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:47:39.13Z"
             },
             {
               "$type": "Document",
@@ -153,12 +146,11 @@
               "RelativeToolTip": "drama.html",
               "ViewState": "AgIAAIoAAAAAAAAAAAAAAJ8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:45:23.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T16:45:23.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "webtoon.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\webtoon.html",
               "RelativeDocumentMoniker": "webtoon.html",
@@ -171,13 +163,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAAALMAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-08-28T15:56:28.061Z",
               "EditorCaption": ""

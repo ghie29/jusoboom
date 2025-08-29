@@ -75,87 +75,214 @@
         }
     </script>
 </head>
+<body class="relative min-h-screen text-white
+             bg-gradient-to-r from-gray-800 via-gray-900 to-black">
 
-<body class="bg-gray-950 text-gray-200">
-
-    <!-- Header -->
-    <header class="bg-gradient-to-r from-gray-800 via-gray-900 to-black shadow-lg sticky top-0 z-50">
+    <header class="relative text-white
+             bg-gradient-to-r from-gray-800 via-gray-900 to-black sticky top-0 z-50">
         <div class="max-w-[100%] mx-auto py-3 flex items-center justify-between md:flex-col md:items-center">
 
-            <!-- Mobile: Hamburger + Logo -->
-            <div class="flex items-center md:hidden gap-2">
+            <!-- Mobile Header -->
+            <div class="flex items-center justify-between md:hidden w-full px-2">
+
+                <!-- Left: Hamburger -->
                 <button id="menu-btn" class="focus:outline-none">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
-                <a href="/index.html" class="text-2xl font-black text-white hover:text-yellow-300">주소붐</a>
+
+                <!-- Center: Logo -->
+                <a href="/index.html"
+                   class="absolute left-1/2 transform -translate-x-1/2
+text-4xl md:text-4xl font-black font-black-han-sans
+bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text text-transparent
+drop-shadow-[0_0_6px_rgba(0,0,0,0.6)] hover:drop-shadow-[0_0_10px_rgba(0,0,0,0.8)]
+transition-all duration-300 ease-in-out">
+                    주소붐
+                </a>
+
+
+
+                <!-- Right: Date & Time -->
+                <div class="flex flex-col items-end text-white font-do-hyeon text-right">
+                    <div id="mobile-date" class="text-sm text-gray-300"></div>
+                    <div id="mobile-clock" class="text-md font-bold mt-1"></div>
+                </div>
             </div>
 
-            <!-- Mobile Date & Time -->
-            <div class="md:hidden flex flex-col items-end text-white font-do-hyeon text-right mr-2">
-                <div id="mobile-date" class="text-sm text-gray-300"></div>
-                <div id="mobile-clock" class="text-xl font-bold mt-1"></div>
-            </div>
 
-            <!-- Desktop Logo -->
-            <a href="/index.html" class="text-3xl md:text-5xl font-black hover:text-yellow-300 transition-colors hidden md:block">
+            <!-- Desktop Logo with Boom Effect -->
+            <a href="/index.html"
+               class="text-3xl md:text-5xl font-black font-black-han-sans hidden md:block
+bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text text-transparent
+drop-shadow-[0_0_6px_rgba(0,0,0,0.6)]
+hover:scale-125 hover:rotate-2 hover:skew-x-2]
+transition-all duration-500 ease-out">
                 주소붐
             </a>
 
-            <!-- Desktop Nav -->
-            <nav class="hidden md:flex mt-3 justify-center w-full bg-black/60 backdrop-blur-md py-3 shadow-lg px-6 gap-12">
-                <a href="/" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">HOME</a>
-                <a href="/webtoon.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">웹툰</a>
-                <a href="/drama.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">무료드라마</a>
-                <a href="/adult.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">성인사이트</a>
-                <a href="/sports.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">스포츠중계</a>
-                <a href="/egame.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">먹튀검증</a>
-                <a href="/torrent.html" class="px-3 py-2 text-yellow-400 font-semibold rounded-lg bg-white/10">토렌트</a>
-                <a href="/community.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">커뮤니티</a>
-                <a href="/adultg.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">성인용품</a>
-                <a href="/news.html" class="px-3 py-2 text-white font-semibold rounded-lg hover:bg-white/20">한인교민</a>
+
+
+
+            <!-- Desktop Menu -->
+            <nav class="hidden md:flex mt-3 justify-center w-full bg-black/60 backdrop-blur-md py-3 shadow-lg px-6 gap-11">
+                <a href="/" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    HOME
+                </a>
+                <a href="/webtoon.html" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    웹툰
+                </a>
+                <a href="/drama.html" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    무료드라마
+                </a>
+                <a href="/adult.html" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    성인사이트
+                </a>
+                <a href="/sports.html" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    스포츠중계
+                </a>
+                <a href="/egame.html" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    먹튀검증
+                </a>
+                <a href="/torrent.html" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    토렌트
+                </a>
+                <a href="/community.html" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    커뮤니티
+                </a>
+                <a href="/adultg.html" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    성인용품
+                </a>
+                <a href="/news.html" class="px-4 py-2 text-white font-semibold rounded-lg transition-all duration-300
+       hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-600 hover:text-black">
+                    한인교민
+                </a>
             </nav>
 
-            <!-- Mobile Nav -->
-            <nav id="mobile-menu" class="fixed top-0 left-0 h-full w-64 bg-gradient-to-b from-gray-800 to-black transform -translate-x-full flex flex-col gap-4 p-8 transition-transform duration-300 z-40 md:hidden">
-                <a href="/" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">HOME</a>
-                <a href="/webtoon.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">웹툰</a>
-                <a href="/drama.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">무료드라마</a>
-                <a href="/adult.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">성인사이트</a>
-                <a href="/sports.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">스포츠중계</a>
-                <a href="/egame.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">먹튀검증</a>
-                <a href="/torrent.html" class="text-yellow-400 bg-white/10 rounded-xl px-4 py-3">토렌트</a>
-                <a href="/community.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">커뮤니티</a>
-                <a href="/adultg.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">성인용품</a>
-                <a href="/news.html" class="text-white hover:bg-white/20 rounded-xl px-4 py-3">한인교민</a>
+
+            <!-- Mobile slide menu -->
+            <nav id="mobile-menu" class="fixed top-0 left-0 h-full w-64 bg-gradient-to-r from-gray-800 via-gray-900 to-black transform -translate-x-full flex flex-col gap-2 p-6 transition-transform duration-300 z-40 md:hidden shadow-2xl">
+
+                <!-- Header with close button -->
+                <div class="flex items-center justify-between mb-6">
+                    <span class="text-white font-semibold text-lg">메뉴</span>
+                    <button id="close-btn" class="text-white hover:text-yellow-400 transition text-2xl font-bold">
+                        &times;
+                    </button>
+                </div>
+
+                <a href="/" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/home.png" class="w-6 h-6 object-contain" alt="Home" />
+                    <span class="font-medium">HOME</span>
+                </a>
+
+                <a href="/webtoon.html" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/icon_webtoon2_white.png" class="w-6 h-6 object-contain" alt="웹툰" />
+                    <span class="font-medium">웹툰</span>
+                </a>
+
+                <a href="/drama.html" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/icon_movie2.png" class="w-6 h-6 object-contain" alt="무료드라마" />
+                    <span class="font-medium">무료드라마</span>
+                </a>
+
+                <a href="/adult.html" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/icon_adultfirst2.png" class="w-6 h-6 object-contain" alt="성인사이트" />
+                    <span class="font-medium">성인사이트</span>
+                </a>
+
+                <a href="/sports.html" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/icon_sports2.png" class="w-6 h-6 object-contain" alt="스포츠중계" />
+                    <span class="font-medium">스포츠중계</span>
+                </a>
+
+                <a href="/egame.html" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/icon_steal2.png" class="w-6 h-6 object-contain" alt="먹튀검증" />
+                    <span class="font-medium">먹튀검증</span>
+                </a>
+
+                <a href="/torrent.html" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/icon_torrent2.png" class="w-6 h-6 object-contain" alt="토렌트" />
+                    <span class="font-medium">토렌트</span>
+                </a>
+
+                <a href="/community.html" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/icon_community2.png" class="w-6 h-6 object-contain" alt="커뮤니티" />
+                    <span class="font-medium">커뮤니티</span>
+                </a>
+
+                <a href="/adultg.html" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/icon_adultfirst2.png" class="w-6 h-6 object-contain" alt="성인용품" />
+                    <span class="font-medium">성인용품</span>
+                </a>
+
+                <a href="/news.html" class="flex items-center gap-3 text-white hover:bg-gradient-to-r hover:from-yellow-400/20 hover:to-yellow-600/20 rounded-xl px-4 py-3 transition-all">
+                    <img src="/assets/icon_kr_community.png" class="w-6 h-6 object-contain" alt="한인교민" />
+                    <span class="font-medium">한인교민</span>
+                </a>
             </nav>
         </div>
 
         <script>
             const btn = document.getElementById('menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
-            btn.addEventListener('click', () => {
+            const closeBtn = document.getElementById('close-btn'); // new X button
+
+            // Toggle menu when button is clicked
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
                 mobileMenu.classList.toggle('-translate-x-full');
             });
 
+            // Close with X button
+            closeBtn.addEventListener('click', () => {
+                mobileMenu.classList.add('-translate-x-full');
+            });
+
+            // Close if clicking outside
+            document.addEventListener('click', (e) => {
+                const isClickInsideMenu = mobileMenu.contains(e.target);
+                const isClickOnButton = btn.contains(e.target);
+
+                if (!isClickInsideMenu && !isClickOnButton) {
+                    if (!mobileMenu.classList.contains('-translate-x-full')) {
+                        mobileMenu.classList.add('-translate-x-full');
+                    }
+                }
+            });
+
+            // Mobile date & time
             const dateEl = document.getElementById('mobile-date');
             const clockEl = document.getElementById('mobile-clock');
+
             function updateTime() {
                 const now = new Date();
                 const y = now.getFullYear();
-                const mo = String(now.getMonth() + 1).padStart(2, '0');
-                const d = String(now.getDate()).padStart(2, '0');
-                const h = String(now.getHours()).padStart(2, '0');
-                const m = String(now.getMinutes()).padStart(2, '0');
+                const mo = (now.getMonth() + 1).toString().padStart(2, '0');
+                const d = now.getDate().toString().padStart(2, '0');
+                const h = now.getHours().toString().padStart(2, '0');
+                const m = now.getMinutes().toString().padStart(2, '0');
+
                 dateEl.textContent = `${y}/${mo}/${d}`;
                 clockEl.textContent = `${h}:${m}`;
             }
+
             updateTime();
             setInterval(updateTime, 60000);
         </script>
-    </header>
 
+
+    </header>
     <!-- Main -->
     <main class="max-w-7xl mx-auto px-6 py-12">
         <h1 class="text-3xl md:text-4xl font-extrabold text-white mb-6">
@@ -215,9 +342,63 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-gray-400 py-8 text-center border-t border-gray-800">
-        <p class="text-sm">&copy; 2025 주소붐. All rights reserved.</p>
+    <footer class="text-white py-12 px-6
+           relative  text-white
+        bg-gradient-to-r from-gray-800 via-gray-900 to-black">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+
+            <!-- About -->
+            <div>
+                <h3 class="text-lg font-bold mb-3">About 주소붐</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    <strong>주소붐</strong>은 신뢰할 수 있는 <a href="/webtoon" class="hover:text-yellow-400">웹툰</a>,
+                    <a href="/drama" class="hover:text-yellow-400">무료 드라마</a>,
+                    <a href="/sports" class="hover:text-yellow-400">스포츠 중계</a> 등 다양한 사이트를
+                    빠르고 쉽게 탐색할 수 있도록 돕는 웹사이트 디렉토리입니다.
+                </p>
+            </div>
+
+            <!-- Advertise -->
+            <div>
+                <h3 class="text-lg font-bold mb-3">Advertise</h3>
+                <p class="text-gray-400 text-sm">
+                    하루 수천 명의 방문자에게 홍보하세요! 광고 문의는 텔레그램으로 연락 바랍니다.
+                </p>
+                <a href="https://t.me/csghie29" class="inline-block mt-2 px-4 py-2 bg-yellow-500 text-black rounded-lg font-semibold hover:bg-yellow-400 transition-all">
+                    Advertise Now
+                </a>
+            </div>
+
+            <!-- Privacy -->
+            <div>
+                <h3 class="text-lg font-bold mb-3">Privacy Policy</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    <strong>주소붐</strong>은 이용자의 개인정보 보호를 최우선으로 합니다.
+                    방문 기록이나 검색 정보는 안전하게 관리되며,
+                    자세한 내용은 <a href="/privacy.html" class="hover:text-yellow-400">개인정보 처리방침</a>에서 확인하세요.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-bold mb-3">Quick Links</h3>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><a href="/webtoon" class="hover:text-yellow-400">웹툰 모음</a></li>
+                    <li><a href="/drama" class="hover:text-yellow-400">무료 드라마</a></li>
+                    <li><a href="/sports" class="hover:text-yellow-400">스포츠 중계</a></li>
+                    <li><a href="/torrent" class="hover:text-yellow-400">토렌트 사이트</a></li>
+                    <li><a href="/community" class="hover:text-yellow-400">커뮤니티 모음</a></li>
+                    <li><a href="/adult" class="hover:text-yellow-400">성인사이트</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr class="border-gray-700 my-8">
+
+        <p class="text-gray-500 text-sm text-center">
+            &copy; 2025 <strong>주소붐</strong>. All rights reserved.
+        </p>
     </footer>
 </body>
 </html>
