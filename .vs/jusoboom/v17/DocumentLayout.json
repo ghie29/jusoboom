@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\webtoon.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webtoon.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\webtoon.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webtoon.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\opi.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:opi.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\torrent.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:torrent.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\sports.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sports.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\news.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:news.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\adultg.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:adultg.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\community.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:community.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\egame.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:egame.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\sports.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sports.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\drama.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:drama.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\community.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:community.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\adultg.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:adultg.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\adult.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:adult.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\github\\jusoboom\\drama.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:drama.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,51 +58,68 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "opi.html",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\opi.html",
+              "RelativeDocumentMoniker": "opi.html",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\opi.html",
+              "RelativeToolTip": "opi.html",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAcwBQBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-29T06:39:09.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "news.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\news.html",
               "RelativeDocumentMoniker": "news.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\news.html",
               "RelativeToolTip": "news.html",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAcwHIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAcwA4BAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T17:00:53.53Z"
+              "WhenOpened": "2025-08-28T17:00:53.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "adultg.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\adultg.html",
               "RelativeDocumentMoniker": "adultg.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\adultg.html",
               "RelativeToolTip": "adultg.html",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAcwHMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAcwA8BAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:59:55.342Z"
+              "WhenOpened": "2025-08-28T16:59:55.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "community.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\community.html",
               "RelativeDocumentMoniker": "community.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\community.html",
               "RelativeToolTip": "community.html",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAcwKIAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAABAAAAAAAAAAAcwCUBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:57:36.018Z"
+              "WhenOpened": "2025-08-28T16:57:36.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "torrent.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\torrent.html",
               "RelativeDocumentMoniker": "torrent.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\torrent.html",
               "RelativeToolTip": "torrent.html",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAcwKIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAABAAAAAAAAAAAcwCUBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:55:26.889Z"
+              "WhenOpened": "2025-08-28T16:55:26.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -108,68 +129,72 @@
               "RelativeDocumentMoniker": "egame.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\egame.html",
               "RelativeToolTip": "egame.html",
-              "ViewState": "AgIAANoAAAAAAAAAAAAYwOkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAYwBsBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:53:03.686Z"
+              "WhenOpened": "2025-08-28T16:53:03.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "sports.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\sports.html",
               "RelativeDocumentMoniker": "sports.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\sports.html",
               "RelativeToolTip": "sports.html",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAcwCQBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:50:16.405Z"
+              "WhenOpened": "2025-08-28T16:50:16.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "adult.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\adult.html",
               "RelativeDocumentMoniker": "adult.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\adult.html",
               "RelativeToolTip": "adult.html",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAJgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAcwCYBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:47:39.13Z"
+              "WhenOpened": "2025-08-28T16:47:39.13Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "drama.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\drama.html",
               "RelativeDocumentMoniker": "drama.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\drama.html",
               "RelativeToolTip": "drama.html",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJ8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAABAAAAAAAAAAAYwCUBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-28T16:45:23.171Z"
+              "WhenOpened": "2025-08-28T16:45:23.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "webtoon.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\webtoon.html",
               "RelativeDocumentMoniker": "webtoon.html",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\webtoon.html",
-              "RelativeToolTip": "webtoon.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\webtoon.html*",
+              "RelativeToolTip": "webtoon.html*",
+              "ViewState": "AgIAACoBAAAAAAAAAAAcwEkBAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-08-28T16:34:20.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\github\\jusoboom\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAALMAAAB8AAAAAAAAAA==",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAYwGIBAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-08-28T15:56:28.061Z",
               "EditorCaption": ""
